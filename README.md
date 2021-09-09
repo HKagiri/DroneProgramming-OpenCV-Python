@@ -10,8 +10,8 @@
   
 * Libraries installed to make it work:
 
-  -djitello - main library that allows one to call functions related to drone perfomance and actions.
-  -pygame used to accept the keyboard inputs.
+  - djitello - main library that allows one to call functions related to drone perfomance and actions.
+  - pygame - used to accept the keyboard inputs.
 
 ### Very soon will be attempting to do Object Detection
   
