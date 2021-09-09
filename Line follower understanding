@@ -1,0 +1,22 @@
+ Line follwer
+  use of binaries  000 to show all sensors are not active - stop
+                   010 move forward
+                   001 move right
+                   100 move left
+                   011 slight right
+                   110 slight left
+                   111  stop
+                   101 not possible - stop
+
+  Possibilites available are 2 ^ 3  = 8
+
+   Need a mirror clip to view downwards
+
+   Split image into 2 different parts  [l c r]  virtual zone
+                c  = go forward
+                l = rotate right
+                r  = rotate left
+
+    Drone Issue: Translation
+         counteract by having the drone be at the centre of thee line before rotating to continue following the path.
+         

@@ -1,0 +1,17 @@
+Tracking the face
+    Need Pitch movements (fb)
+          Yaw rotation  (yv)
+
+    fb:
+    Object or face looking small  == move forward (far from object)
+    Object or face looking big  == move back (close to object)
+
+    Limit of too close and too far
+            eg  btwn  6200 - 6800  # tested values
+            width * height  == area in pixels
+            counter the movement to ensure there is a green zone (defined by area)
+
+    yv:
+    Rotate the drone to have the object at the centre
+    Overshooting is present
+    Reduce the speed as we reach our destination eg start from 20 - 10 - 5 -0 cm/s (PID)   Propotion Integral Derivative

@@ -1,0 +1,17 @@
+Distance  = Speed * Time  = 10cm/s * 2s  = 20cm
+Angular distance = Angular speed  45deg/s  * 2s  = 90 deg - heading after 2 seconds
+How do we get coordinates
+Travelling distance  = Coordinates after every unit time  eg after a second get position
+                       First interval (7.07, 7.07)
+                       Angle = 45 deg
+                       Distance = 10cm
+
+                       x = d * COS(45) + 10
+                       y = 10 * SIN(45)
+
+                       Second interval (14.14, 14.14)
+                       Angle = 45 deg
+                       Distance = 10cm
+                       
+                       x = d * COS(45) + 10
+                       y = 10 * SIN(45)
